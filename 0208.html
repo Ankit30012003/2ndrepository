@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .box{
+             width: 100px;
+             height: 100px;
+             background-color: red;
+             transition: all 2s;
+            /* transition: width 3s height 3s;*/
+            /*border: 2px solid black;*/
+            
+         }
+         .box:hover{
+            background-color: green;
+             border-radius:0px 50% 0px 50%;
+             border: 2px solid black;
+         }
+
+         .myimage{
+            width:200px;
+            height:200px;
+            border-radius: 50%; 
+            transition: all 5s;
+         }
+         .myimage:hover{
+            transform: rotate(360deg);
+            /*transform: scale(0.5); or 
+             transform: scaleX(0.5); or transform: scaleY(0.5);*/
+           /* transition: all 5s; */
+         }
+
+         .mybutton{
+            font-size: 18px;
+            color: white;
+            padding: 5px 20px;
+            background-color:#e90fc5;
+            border:none;
+            border-radius:5px ;
+            
+         }
+         .mybutton:hover{
+            background-color: aqua;
+            color: black;
+            border-radius: 0px;
+            box-shadow: 5px 5px;
+         }
+    </style>
+</head>
+<body>
+
+    <button class="mybutton">Home</button>
+
+    <br><br>
+
+    <img src="/travel-4813658_640.jpg" class="myimage">
+
+    <br><br>
+
+    <div class="box">
+    </div>
+
+    <br><br>
+
+    <div class="box">
+    </div>
+
+    <br><br>
+
+    <div class="box">
+    </div>
+</body>
+</html>
